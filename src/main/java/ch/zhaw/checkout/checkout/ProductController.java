@@ -25,7 +25,7 @@ public class ProductController {
     
     @GetMapping("/")
     public String ping() {
-        return "Checkout app is up and running!";
+        return "Checkout app is up and running! test";
     }
 
     @GetMapping("/count")
